@@ -20,7 +20,7 @@ import { Redirect } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 
-const Signup = () => {
+const Signin = () => {
 
     const context = useContext(UserContext);
 
@@ -58,7 +58,7 @@ const Signup = () => {
 				<Col lg={6} className='offset-lg-3 mt-5'>
 					<Card>
 						<Form onSubmit={handleSubmit}>
-							<CardHeader className=''>SignUp here</CardHeader>
+							<CardHeader className=''>SignIn here</CardHeader>
 							<CardBody>
 								<FormGroup row>
 									<Label for='email' sm={3}>
@@ -104,4 +104,4 @@ const Signup = () => {
 	);
 }
 
-export default Signup;
+export default Signin;
